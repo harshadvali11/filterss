@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('form/',views.Form_validate,name='Form_validate'),
     path('filter/',views.filter_html,name='filter'),
+    path('usd_filter/',views.usd_filter,name='usd_filter'),
 ]

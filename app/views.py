@@ -18,3 +18,7 @@ def filter_html(request):
     dates=datetime.datetime.now()
     d={'data':'hai Hello HOW R u','dates':dates,'count':1}
     return render(request,'filter.html',context=d)
+
+
+def usd_filter(request):
+    return render(request,'usd_filter.html',context={'wish':'Hai How R U Doing'})

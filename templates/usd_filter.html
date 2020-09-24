@@ -1,0 +1,20 @@
+{% load usd_filter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Displaying The User Defined filters</h1>
+
+       <h1> {{wish|low}}</h1>
+       <h1>{{wish}}</h1>
+        
+       <h1> {{wish|replace_char:'b'}}</h1>
+       <h1>{{wish|replace_char:' '}}</h1>
+    </center>
+</body>
+</html>
